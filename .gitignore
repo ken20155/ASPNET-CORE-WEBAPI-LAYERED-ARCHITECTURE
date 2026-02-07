@@ -1,0 +1,76 @@
+## =====================
+## ASP.NET / .NET
+## =====================
+
+# Build results
+bin/
+obj/
+out/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / VS Code
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+## =====================
+## Configuration (SECRETS)
+## =====================
+
+# App settings with credentials
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Staging.json
+
+# User secrets
+secrets.json
+
+# Environment files
+.env
+.env.*
+
+## =====================
+## Database
+## =====================
+
+# Local DB files
+*.mdf
+*.ldf
+
+## =====================
+## Publish / Deploy
+## =====================
+
+# Publish output
+publish/
+wwwroot/lib/
+
+## =====================
+## Node / Frontend (if used)
+## =====================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+## =====================
+## Misc
+## =====================
+
+# Backup files
+*.bak
+*.tmp
+*.swp
